@@ -22,6 +22,7 @@ class login : AppCompatActivity() {
         clickme.setOnClickListener{
             val reg=Intent(this,SignUpactivity::class.java)
             startActivity(reg);
+            // commit changes 
         }
     }
 }
